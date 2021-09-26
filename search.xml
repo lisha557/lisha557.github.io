@@ -8,7 +8,7 @@
       <link href="/2021/09/25/hello-world%20copy%204/"/>
       <url>/2021/09/25/hello-world%20copy%204/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
@@ -21,7 +21,7 @@
       <link href="/2021/09/25/hello-world%20copy%203/"/>
       <url>/2021/09/25/hello-world%20copy%203/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
@@ -34,7 +34,7 @@
       <link href="/2021/09/25/hello-world%20copy%202/"/>
       <url>/2021/09/25/hello-world%20copy%202/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
@@ -47,7 +47,7 @@
       <link href="/2021/09/25/hello-world%20copy/"/>
       <url>/2021/09/25/hello-world%20copy/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
@@ -60,7 +60,7 @@
       <link href="/2021/09/25/lisha5/"/>
       <url>/2021/09/25/lisha5/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
@@ -73,7 +73,7 @@
       <link href="/2021/09/25/lisha4/"/>
       <url>/2021/09/25/lisha4/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
@@ -86,7 +86,7 @@
       <link href="/2021/09/25/lisha3/"/>
       <url>/2021/09/25/lisha3/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
@@ -99,22 +99,46 @@
       <link href="/2021/09/25/lisha2/"/>
       <url>/2021/09/25/lisha2/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
       
+      <categories>
+          
+          <category> 2 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 1 </tag>
+            
+        </tags>
       
     </entry>
     
     
     
     <entry>
-      <title>Hello World</title>
+      <title>1</title>
       <link href="/2021/09/25/lisha/"/>
       <url>/2021/09/25/lisha/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="a8409053a29dc62cfed1b834d032a4639d16ba513cfa73032348322bac6851a0">bd25ed9264b080267271e137e33d0ce1e1069d88f9699965ec2c8f2e4412683a11965185006bffa98a0a821510d9346f09318e6bad83c5df43f6251105f61d270c32a97bb2827cd20739af9fa6249e35c263c0d3f4882a6addc6d5b5ba9bc4e4ad0e82bf4d4f8612b85a840db1639d504aa6c26a941ff13bb718a3104a0d23f48ba04d0c050823e69d1d029d90006d210939562f905dcc801844fbba8668ffdeec2a4f88a60ce6a69b22ca5a4e37f7a8dffeb973214ba1003364c57b27d1a3568ce2f3b0d77aac379804ecb141615b14dfdc51e50f93684156cf0e82077aeef0fbd742468683a1a3ea75d92e0922024b6e94f74ae91a6d20d4919678418d4950</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">测试加密，这里的密码是：test</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
       
+      <categories>
+          
+          <category> 3 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -125,7 +149,7 @@
       <link href="/2021/09/25/hhh/"/>
       <url>/2021/09/25/hhh/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
       
       
       
@@ -138,7 +162,7 @@
       <link href="/2021/09/25/hello-world/"/>
       <url>/2021/09/25/hello-world/</url>
       
-        <content type="html"><![CDATA[<p>hhhhhhhhh</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>hhhhhhhhh</p>]]></content>
       
       
       
