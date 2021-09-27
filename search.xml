@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>TEST</title>
+      <link href="/2021/09/27/test/"/>
+      <url>/2021/09/27/test/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>只是一个测试coding</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> TEST </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TEST </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>LISHA AND ME</title>
       <link href="/2021/09/26/lisha/"/>
       <url>/2021/09/26/lisha/</url>
