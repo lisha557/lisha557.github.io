@@ -8,7 +8,7 @@
       <link href="/2021/09/27/Servlet/"/>
       <url>/2021/09/27/Servlet/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="1，获取请求头"><a href="#1，获取请求头" class="headerlink" title="1，获取请求头"></a>1，获取请求头</h2><p>protected void doGet(HttpServletRequest request, HttpServletResponse response)<br>            throws ServletException, IOException {</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Enumeration&lt;String&gt; enu = request.getHeaderNames();     //获取请求头</span><br><span class="line">while (enu.hasMoreElements()) &#123;                         //判断是否为空</span><br><span class="line">String headerName = enu.nextElement();</span><br><span class="line"></span><br><span class="line">String headerValues = request.getHeader(headerName);</span><br><span class="line">System.out.println(headerName + &quot;:&quot; + headerValues);//输出请求头</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="Servlet使用1–-输出请求头的内容"><a href="#Servlet使用1–-输出请求头的内容" class="headerlink" title="Servlet使用1– 输出请求头的内容"></a>Servlet使用1– 输出请求头的内容</h2><ul><li><p>当浏览器向服务器发送请求的时候，浏览器会把HTTP请求头的信息写入到输出流中去，发送给服务器，Web服务器能够自动的处理来自浏览器的请求信息。</p></li><li><p>当有请求到达的时候，Servlet容器能够自动生成实现了javax.servlet.ServletRequest接口的Request类的对象，并把请求头的信息封装到请求对象中去。这个对象将会以参数的形式传递给Servlet的service()方法。</p></li><li><p>那么，既然，请求头的信息都包含在Request对象中，我们就能输出这些请求的内容。</p></li><li><p>javax.servlet.http.HttpServletRequest接口为我们提供了2个重要的方法，能够获取请求头中的键值对。</p><p>  a)Enumeration<String> javax.servlet.http.HttpServletRequest.getHeaderNames() 返回一个字符串类型的枚举</p><p>  b)Enumeration<String> javax.servlet.http.HttpServletRequest.getHeaders(String name) 返回一个字符串类型的枚举</p></li></ul><p>示例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">protected void doGet(HttpServletRequest request, HttpServletResponse response)</span><br><span class="line">throws ServletException, IOException &#123;</span><br><span class="line">Enumeration&lt;String&gt; enu = request.getHeaderNames();     //获取请求头</span><br><span class="line">while (enu.hasMoreElements()) &#123;                         //判断是否为空</span><br><span class="line">String headerName = enu.nextElement();</span><br><span class="line"></span><br><span class="line">String headerValues = request.getHeader(headerName);</span><br><span class="line">System.out.println(headerName + &quot;:&quot; + headerValues);//输出请求头</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="Servlet使用2–-表单元素的处理"><a href="#Servlet使用2–-表单元素的处理" class="headerlink" title="Servlet使用2– 表单元素的处理"></a>Servlet使用2– 表单元素的处理</h2><ul><li>客户端向服务器发送http请求的时候，除了发送请求头数据之外，有时候，需要带一定的数据给服务器，由第一章节内容可以知道，这部分的内容称为：“Optional Request Body”，请求正文。</li><li>当用户通过表单，比如：登录或注册界面，可以向服务器发送请求正文信息。那么，Servlet容器能够解析请求正文的信息，并把这些信息封装到自动生成的Request对象中去，这个对象将被传递给service()方法，作为入参。</li><li>通过String javax.servlet.ServletRequest.getParameter(String name)方法能够拿到表单的数据。如果表单中有多选项，那么，通过Enumeration<String> javax.servlet.ServletRequest.getParameterNames()能够获取多选项的值。</li></ul><p>示例GET请求</p><pre><code>//传入参数&lt;a href=&quot;testShow?name=tom&amp;psd=123456&quot;&gt;servlet&lt;/a&gt;//获得参数protected void doGet(HttpServletRequest request, HttpServletResponse response)        throws ServletException, IOException &#123;    String name = request.getParameter(&quot;name&quot;);    String psd = request.getParameter(&quot;psd&quot;);    System.out.println(&quot;name:&quot; + name);    System.out.println(&quot;psd:&quot; + psd);&#125;</code></pre>]]></content>
       
       
       <categories>
@@ -29,23 +29,23 @@
     
     
     <entry>
-      <title>TEST</title>
+      <title>HEXO</title>
       <link href="/2021/09/27/test/"/>
       <url>/2021/09/27/test/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>只是一个测试coding<br><a href="https://hexo.io/zh-cn/docs/tag-plugins#%E5%BC%95%E7%94%A8%E6%96%87%E7%AB%A0">hexo 引用文章</a></p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><a href="https://hexo.io/zh-cn/docs/tag-plugins#%E5%BC%95%E7%94%A8%E6%96%87%E7%AB%A0">hexo 引用文章</a></p>]]></content>
       
       
       <categories>
           
-          <category> TEST </category>
+          <category> HEXO </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> TEST </tag>
+            <tag> HEXO </tag>
             
         </tags>
       
