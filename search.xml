@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Servlet</title>
+      <link href="/2021/09/27/Servlet/"/>
+      <url>/2021/09/27/Servlet/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Servlet"><a href="#Servlet" class="headerlink" title="Servlet"></a>Servlet</h1><h2 id="1，获取请求头"><a href="#1，获取请求头" class="headerlink" title="1，获取请求头"></a>1，获取请求头</h2><p>protected void doGet(HttpServletRequest request, HttpServletResponse response)<br>            throws ServletException, IOException {</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">Enumeration&lt;String&gt; enu = request.getHeaderNames();     //获取请求头</span><br><span class="line">while (enu.hasMoreElements()) &#123;                         //判断是否为空</span><br><span class="line">String headerName = enu.nextElement();</span><br><span class="line"></span><br><span class="line">String headerValues = request.getHeader(headerName);</span><br><span class="line">System.out.println(headerName + &quot;:&quot; + headerValues);//输出请求头</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Servlet </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Servlet </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>TEST</title>
       <link href="/2021/09/27/test/"/>
       <url>/2021/09/27/test/</url>
